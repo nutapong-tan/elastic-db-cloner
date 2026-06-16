@@ -1,0 +1,19 @@
+{
+  "name": "elastic-db-cloner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Clone Elasticsearch indices, mappings, settings, aliases, and documents from one cluster to another.",
+  "scripts": {
+    "clone": "node src/clone-elasticsearch.mjs",
+    "dry-run": "node src/clone-elasticsearch.mjs --verify-read --source-only",
+    "check": "node --check src/clone-elasticsearch.mjs"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.17.1",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
