@@ -11,7 +11,7 @@ npm install
 Create `.env`:
 
 ```env
-SOURCE_ELASTICSEARCH_HOST=https://source-elasticsearch.example.com
+SOURCE_ELASTICSEARCH_HOST=source_host
 SOURCE_ELASTICSEARCH_USERNAME=source_username
 SOURCE_ELASTICSEARCH_PASSWORD=source_password
 SOURCE_ELASTICSEARCH_TLS_REJECT_UNAUTHORIZED=true
